@@ -1,0 +1,170 @@
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, em, img, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, article, footer, header, nav, section, main {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+  
+    scroll-behavior: smooth;
+}
+  
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul, a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.cabecalho {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    background: #000000;
+
+    z-index: 10;
+}
+
+.menu {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.menu li a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+
+    color: #E0E0E0;
+}
+
+.menu li a:hover{
+    color: #E0E0E0;
+    font-weight: 700;
+    transition: 0;
+}
+
+.capa {
+    width: 100%;
+    height: 600px;
+    background: url(imagens/background.svg) no-repeat center/cover;
+}
+
+.capa div {
+    position: absolute;
+    width: 100%;
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.capa div h1 {
+    color: #97CADB;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 75px;
+    letter-spacing: 8px;
+}
+
+.capa div p {
+    color: #919191;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+
+.sobre-nos {
+    width: 100%;
+    background: #000000;
+    padding: 50px 0;
+}
+
+.sobre-txt {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 85px;
+}
+
+.sobre-txt h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #018ABE;
+    font-weight: 600;
+    letter-spacing: 5px;
+    font-size: 30px;
+    margin-bottom: 35px
+}
+
+.sobre-txt p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 200%;
+}
+
+.sobre-txt div {
+    width: 45%;
+}
+
+.sobre-txt img {
+    height: 400px;
+}
+
+.corpo-txt {
+    color: #919191;
+}
+
+.sub-txt {
+    color: #97CADB;
+    font-style: italic;
+}
+
+.produtos {
+    width: 100%;
+    background: #000A19;
+    padding: 50px 0;
+}
+
+.produtos h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 5px;
+    color: #919191;
+    font-size: 30px;
+
+    margin-left: 50px;
+}
+
+.categorias {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.categorias h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #001B48;
+    border-radius: 10px;
+    background: #74949F;
+
+    width: 160px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
