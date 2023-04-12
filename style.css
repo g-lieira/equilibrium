@@ -17,6 +17,14 @@ ul, a {
     text-decoration: none;
 }
 
+#sobre-nos, #produtos, #contato {
+    width: 100%;
+    height: 10px;
+    position: absolute;
+    margin-top: -30px;
+}
+
+
 .cabecalho {
     position: fixed;
     top: 0;
@@ -89,6 +97,16 @@ ul, a {
     padding: 50px 0;
 }
 
+.sobre-nos h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #018ABE;
+    font-weight: 600;
+    letter-spacing: 5px;
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-left: 110px;
+}
+
 .sobre-txt {
     width: 100%;
     display: flex;
@@ -97,14 +115,7 @@ ul, a {
     gap: 85px;
 }
 
-.sobre-txt h1 {
-    font-family: 'Montserrat', sans-serif;
-    color: #018ABE;
-    font-weight: 600;
-    letter-spacing: 5px;
-    font-size: 30px;
-    margin-bottom: 35px
-}
+
 
 .sobre-txt p {
     font-family: 'Montserrat', sans-serif;
@@ -133,7 +144,7 @@ ul, a {
 .produtos {
     width: 100%;
     background: #000A19;
-    padding: 50px 0;
+    padding: 60px 0;
 }
 
 .produtos h1 {
@@ -141,16 +152,19 @@ ul, a {
     font-weight: 600;
     letter-spacing: 5px;
     color: #919191;
-    font-size: 30px;
+    font-size: 40px;
 
-    margin-left: 50px;
+    margin-left: 110px;
 }
 
 .categorias {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 110px;
+
+    margin-top: 50px;
 }
 
 .categorias h4 {
@@ -167,4 +181,117 @@ ul, a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+.img-produtos {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+
+    margin-top: 60px;
+}
+
+.img-produtos div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.img-produtos div h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #E0E0E0;
+}
+
+.img-produtos div img {
+    height: 400px;
+    width: 277px;
+}
+
+.shadow {
+    position: absolute;
+    width: 277px;
+    height: 400px;
+    display: none;
+}
+
+.shadow:hover {
+    display: block;
+    background: rgba(0, 0, 0, 0.4);;
+}
+
+
+.roda-pe {
+    width: 100%;
+    background: #000000;
+
+    padding: 60px 0 30px 0;
+}
+
+.roda-pe h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #97CADB;
+    font-size: 40px;
+
+    letter-spacing: 5px;
+    font-weight: 600;
+
+    margin-left: 110px;
+}
+
+.dados-contato {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 280px;
+
+    margin: 40px 0 60px 0;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.contato a {
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.contato a img {
+    width: 35px;
+    margin-right: 20px;
+}
+
+.linha-inferior {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.linha-inferior hr {
+    width: 95%;
+}
+
+.linha-inferior h6 {
+    color: #D6E8EE;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
 }
