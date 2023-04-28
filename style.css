@@ -3,13 +3,14 @@
 * {
     margin: 0;
     padding: 0;
-    scroll-behavior: smooth;
-}
 
-ul, a {
+    scroll-behavior: smooth;
+
     list-style: none;
     text-decoration: none;
 }
+
+
 
 #sobre-nos, #produtos, #contato {
     width: 100%;
